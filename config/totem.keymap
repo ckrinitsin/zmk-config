@@ -116,10 +116,10 @@
 
         Gaming+ {
             bindings = <
-        &kp N1   &kp N2      &kp N3        &kp N4         &kp N5    &trans     &trans    &trans  &trans  &trans
-        &kp T    &kp O       &kp Y         &kp K          &kp G     &kp F5     &trans    &trans  &trans  &trans
-&trans  &to 0    &trans      &trans        &trans         &trans    &trans     &trans    &trans  &trans  &trans   &kp LA(F4)
-                             &kp F8        &kp F5         &kp M     &trans     &trans    &trans
+        &kp N1   &kp N2      &kp N3        &kp N4     &kp N5    &trans     &trans    &trans  &trans  &trans
+        &kp T    &kp O       &kp Y         &kp K      &kp G     &trans     &trans    &trans  &trans  &trans
+&trans  &to 0    &trans      &trans        &kp I      &kp M    &trans     &trans    &trans  &trans  &trans   &kp LA(F4)
+                             &kp F8        &kp F5     &trans    &trans     &trans    &trans
             >;
 
             label = "Gaming+";
