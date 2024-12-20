@@ -20,7 +20,7 @@
 #define Sym         3
 #define Fun         4
 #define Gaming      5
-#define Gaming+     6
+#define Gamingplus  6
 
 &mt {
     quick-tap-ms = <100>;
@@ -108,13 +108,13 @@
             &kp ESCAPE      &kp Q  &kp W      &kp E         &sl R          &trans  &trans  &trans  &trans  &trans
             &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F          &trans  &trans  &trans  &trans  &trans
 &kp TAB     &kp Z           &kp X  &kp C      &kp V         &kp B          &trans  &trans  &trans  &trans  &trans  &to Qwerty
-                                   &kp LCTRL  &kp SPACE     &mo Gaming+    &trans  &trans  &trans
+                                   &kp LCTRL  &kp SPACE     &mo Gamingplus    &trans  &trans  &trans
             >;
 
             label = "Gaming";
         };
 
-        Gaming+ {
+        Gamingplus {
             bindings = <
         &kp N1   &kp N2      &kp N3        &kp N4     &kp N5    &trans     &trans    &trans  &trans  &trans
         &kp T    &kp O       &kp Y         &kp K      &kp G     &trans     &trans    &trans  &trans  &trans
@@ -122,7 +122,7 @@
                              &kp F8        &kp F5     &trans    &trans     &trans    &trans
             >;
 
-            label = "Gaming+";
+            label = "Gamingplus";
         };
     };
 };
