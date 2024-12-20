@@ -105,7 +105,7 @@
 
         Gaming {
             bindings = <
-            &kp ESCAPE      &kp Q  &kp W      &kp E         &sl R          &trans  &trans  &trans  &trans  &trans
+            &kp ESCAPE      &kp Q  &kp W      &kp E         &kp R          &trans  &trans  &trans  &trans  &trans
             &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F          &trans  &trans  &trans  &trans  &trans
 &kp TAB     &kp Z           &kp X  &kp C      &kp V         &kp B          &trans  &trans  &trans  &trans  &trans  &to Qwerty
                                    &kp LCTRL  &kp SPACE     &mo Gamingplus    &trans  &trans  &trans
@@ -116,7 +116,7 @@
 
         Gamingplus {
             bindings = <
-        &kp N1   &kp N2      &kp N3        &kp N4     &kp N5    &trans     &trans    &trans  &trans  &trans
+        &kp N1   &kp N2      &kp N3        &kp N4     &kp N5    &trans     &trans    &trans  &trans  &kp RGUI
         &kp T    &kp O       &kp Y         &kp K      &kp G     &trans     &trans    &trans  &trans  &trans
 &trans  &to 0    &trans      &trans        &kp I      &kp M    &trans     &trans    &trans  &trans  &trans   &kp LA(F4)
                              &kp F8        &kp F5     &trans    &trans     &trans    &trans
