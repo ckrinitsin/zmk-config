@@ -22,6 +22,7 @@
 #define Fun         4
 #define Gaming      5
 #define Gamingplus  6
+#define Gamingplusplus 7
 
 &mt {
     quick-tap-ms = <100>;
@@ -117,10 +118,21 @@
 
         Gamingplus {
             bindings = <
-        &kp N1   &kp N2      &kp N3        &kp N4     &kp N5    &trans     &trans    &trans  &trans  &kp RGUI
-        &kp T    &kp O       &kp Y         &kp K      &kp G     &trans     &trans    &trans  &trans  &trans
-&trans  &to 0    &trans      &trans        &kp I      &kp M    &trans     &trans    &trans  &trans  &trans   &kp LA(F4)
+                    &kp N1   &kp N2      &kp N3        &kp N4     &kp N5    &trans     &trans    &trans  &trans  &kp RGUI
+                    &kp T    &kp O       &kp Y         &kp K      &kp G     &trans     &trans    &trans  &trans  &trans
+&mo Gamingplusplus  &to 0    &trans      &trans        &kp I      &kp M    &trans     &trans    &trans  &trans  &trans   &kp LA(F4)
                              &kp F8        &kp F5     &trans    &trans     &trans    &trans
+            >;
+
+            label = "Gamingplus";
+        };
+
+        Gamingplusplus {
+            bindings = <
+        &trans   &trans      &kp UP        &kp RET     &trans    &trans     &trans    &trans  &trans  &kp RGUI
+        &trans   &kp LEFT    &kp DOWN      &kp RIGHT      &trans     &trans     &trans    &trans  &trans  &trans
+&trans  &trans    &trans      &trans        &trans      &trans    &trans     &trans    &trans  &trans  &trans   &kp LA(F4)
+                             &trans        &trans     &trans    &trans     &trans    &trans
             >;
 
             label = "Gamingplus";
